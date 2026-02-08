@@ -1,0 +1,7 @@
+# Data files (if large, optional: track only scripts)
+*.h5ad
+*.csv
+*.tsv
+*.txt
+*.loom
+*.mtx
