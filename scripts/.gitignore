@@ -1,0 +1,5 @@
+data/
+*.tar
+*.h5ad
+*.csv.gz
+
