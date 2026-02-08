@@ -10,41 +10,43 @@ The goal of this project is to demonstrate a reproducible Scanpy-based scRNA-seq
 
 Key steps include:
 
-*Loading raw count matrices
-Import the scRNA-seq data (e.g., .h5ad or .mtx files) into an AnnData object for analysis.
+**Key steps include:**
 
-*Quality control (cell and gene filtering)
-Remove low-quality cells and genes with low expression to improve downstream analysis.
+- **Loading raw count matrices**  
+  Import the scRNA-seq data (e.g., `.h5ad` or `.mtx` files) into an `AnnData` object for analysis.
 
-*Normalization and log-transformation
-Normalize counts to account for sequencing depth and transform to log scale for comparability.
+- **Quality control (cell and gene filtering)**  
+  Remove low-quality cells and genes with low expression to improve downstream analysis.
 
-*Identification of highly variable genes
-Select genes that capture the most biological variation, which improves dimensionality reduction and clustering.
+- **Normalization and log-transformation**  
+  Normalize counts to account for sequencing depth and transform to log scale for comparability.
 
-*Dimensionality reduction (PCA, UMAP)
-Reduce the dataset’s complexity using principal component analysis (PCA) and visualize cells in 2D space using UMAP.
+- **Identification of highly variable genes**  
+  Select genes that capture the most biological variation, which improves dimensionality reduction and clustering.
 
-*Clustering and visualization
-Group cells into clusters based on transcriptional similarity and visualize results using UMAP or t-SNE plots.
+- **Dimensionality reduction (PCA, UMAP)**  
+  Reduce the dataset’s complexity using principal component analysis (PCA) and visualize cells in 2D space using UMAP.
 
-*Integration
-Combine multiple datasets or batches to correct for batch effects and allow joint analysis of different samples.
+- **Clustering and visualization**  
+  Group cells into clusters based on transcriptional similarity and visualize results using UMAP or t-SNE plots.
 
-*Analysis
-Explore biological patterns in clusters, cell types, or conditions using various downstream analyses.
+- **Integration**  
+  Combine multiple datasets or batches to correct for batch effects and allow joint analysis of different samples.
 
-*Counting cells
-Quantify the number of cells per cluster or per condition for summary statistics and comparison.
+- **Analysis**  
+  Explore biological patterns in clusters, cell types, or conditions using various downstream analyses.
 
-*Differential expression (DE) analysis
-Identify genes that are significantly up- or down-regulated between clusters, conditions, or cell types.
+- **Counting cells**  
+  Quantify the number of cells per cluster or per condition for summary statistics and comparison.
 
-*Gene Ontology (GO) enrichment
-Perform functional enrichment analysis on DE genes to interpret their biological significance.
+- **Differential expression (DE) analysis**  
+  Identify genes that are significantly up- or down-regulated between clusters, conditions, or cell types.
 
-*Scoring gene signatures
-Calculate signature scores for predefined gene sets to assess pathway activity or cell states across clusters.
+- **Gene Ontology (GO) enrichment**  
+  Perform functional enrichment analysis on DE genes to interpret their biological significance.
+
+- **Scoring gene signatures**  
+  Calculate signature scores for predefined gene sets to assess pathway activity or cell states across clusters.
 
 ---
 
